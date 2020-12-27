@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 这个Python文件中维护了一个`XLSX`类，调用这个类的`save_excel()`方法可以将得出的相似度存储为excel文件
 
-## [start.py](./save_similarity.py)
+## [start.py](./start.py)
 
 这个Python文件中维护了一个`Controller`类，这个类继承自`Window`类，通过组合的方式将前面的工具类组合到这个类中。
 
