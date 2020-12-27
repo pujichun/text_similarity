@@ -43,7 +43,7 @@ pip install -r requirements.txt
 这个Python文件中维护了一个`Traverse`这个类实例化的时候需要指定文件夹路径，这个类的`traverse()`方法会找出实例化这个类时传入的文件夹路径下的所有`docx`、`pdf`、`txt`结尾的文件，然后返回一个生成器对象，这个生成器对象中的内容为符合条件的文件路径
 
 
-## [reader_source.py](./reader_source)
+## [read_source.py](./read_source.py)
 
 这个Python文件中维护了四个类和一个`read()`函数，包含一个抽象基类`Reader`，读取txt，word，pdf的三个类都继承自`Reader`类，调用`read()`函数就能实现读取指定类型的文本
 
